@@ -1,0 +1,17 @@
+/* Styling for the images */
+img {
+    width: 50px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s;
+}
+
+/* General Table Styling */
+table th, table td {
+    text-align: center;
+}
